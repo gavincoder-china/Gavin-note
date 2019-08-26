@@ -1,0 +1,22 @@
+{
+  "name": "Gavin-note",
+  "author": "He Wei",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xunyegege/Gavin-note.git"
+  },
+  "keywords": [
+    "Gavin-note"
+  ],
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "vuepress": "^1.0.3"
+  }
+}

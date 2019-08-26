@@ -8,7 +8,7 @@ const getPath = path => {
 }
 
 module.exports = {
-  title: '岁月留痕',
+  title: '岁月bu留痕',
   description: '记录编程之路的点点滴滴',
   // dev 模式下不显示 favicon？
   head: [

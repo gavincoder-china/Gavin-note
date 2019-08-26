@@ -10,9 +10,10 @@ const getPath = path => {
 
 module.exports = {
 
-  title: 'Gavin的进阶之路',
+  title: '狂拽酷炫屌炸天 琴棋书画诗酒茶',
   description: 'Gavin的博客',
   serviceWorker: true, // 是否开启 PWA
+ 
   base: '/',
   head: [
     // ['link', { rel: 'icon', href: '/img/logo.ico' }],
@@ -21,7 +22,7 @@ module.exports = {
   themeConfig: {
 
     nav: [
-      { text: '主页', link: '/java/' },
+      { text: '主页', link: '/' },
 
       {
         text: '工具',
@@ -34,6 +35,7 @@ module.exports = {
 
         ]
       },
+      { text: 'CSDN', link: 'https://blog.csdn.net/weixin_39200308' },
       { text: 'Github', link: 'https://www.github.com/xunyegege' },
 
     ],
@@ -41,12 +43,19 @@ module.exports = {
     sidebar: [
   
     {
-      title: '学习笔记',
+      title: '大前端',
       children: getPath('js'),
+    },{
+      title:'Java',
+      children: getPath('java'),
+    },
+    {
+      title:'岁月如梭(日记)',
+      children:getPath('life')
     }
     ],
     sidebarDepth: 3,
-    lastUpdated: 'Last Updated'
+    lastUpdated: '最后更新于',
   },
   markdown: {
     lineNumbers: true

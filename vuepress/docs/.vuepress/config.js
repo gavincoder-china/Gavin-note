@@ -10,7 +10,7 @@ const getPath = path => {
 
 module.exports = {
 
-  title: '狂拽酷炫屌炸天 琴棋书画诗酒茶   😊代码人生',
+  title: '😊人生如诗,随意如风',
   description: 'Gavin的博客',
   serviceWorker: true, // 是否开启 PWA
  

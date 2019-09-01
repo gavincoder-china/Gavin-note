@@ -10,7 +10,7 @@ const getPath = path => {
 
 module.exports = {
 
-  title: '狂拽酷炫屌炸天 琴棋书画诗酒茶',
+  title: '狂拽酷炫屌炸天 琴棋书画诗酒茶   😊代码人生',
   description: 'Gavin的博客',
   serviceWorker: true, // 是否开启 PWA
  
@@ -41,7 +41,10 @@ module.exports = {
     ],
     sidebar:'auto',
     sidebar: [
-  
+      {
+        title: '藏宝阁',
+        children: getPath('treasure'),
+      },
     {
       title: '大前端',
       children: getPath('js'),

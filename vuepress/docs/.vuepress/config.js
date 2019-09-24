@@ -42,11 +42,12 @@ module.exports = {
     sidebar:'auto',
     sidebar: [
       {
-        title: '藏宝阁',
-        children: getPath('treasure'),
-      },{
       title:'Java',
       children: getPath('java'),
+    },
+    {
+      title: '藏宝阁',
+      children: getPath('treasure'),
     },
     {
       title:'岁月如梭(日记)',

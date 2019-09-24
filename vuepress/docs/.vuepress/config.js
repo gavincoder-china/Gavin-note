@@ -44,11 +44,7 @@ module.exports = {
       {
         title: '藏宝阁',
         children: getPath('treasure'),
-      },
-    {
-      title: '大前端',
-      children: getPath('js'),
-    },{
+      },{
       title:'Java',
       children: getPath('java'),
     },

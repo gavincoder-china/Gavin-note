@@ -1,0 +1,18 @@
+[
+    {
+        "type": "Group",
+        "name": "日记",
+        "parent_id": null,
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "IschMRg0rtYAk8l5"
+    },
+    {
+        "type": "Directory",
+        "name": "/Users/gavincoder/mycode/github/Gavin-note/vuepress",
+        "parent_id": "IschMRg0rtYAk8l5",
+        "workspaceRoot": "/Users/gavincoder/mycode/github/Gavin-note",
+        "workspacePath": "vuepress",
+        "id": "AzURa6yXZhqnV0Gv"
+    }
+]

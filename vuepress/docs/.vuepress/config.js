@@ -35,7 +35,7 @@ module.exports = {
 
         ]
       },
-      { text: 'CSDN', link: 'https://blog.csdn.net/weixin_39200308' },
+      { text: '精华博客', link: 'https://blog.csdn.net/weixin_39200308' },
       { text: 'Github', link: 'https://www.github.com/xunyegege' },
 
     ],

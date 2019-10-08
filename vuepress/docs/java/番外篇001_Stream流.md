@@ -1,6 +1,6 @@
-# ⭐️Java8中Stream流式方法
+# Java8中Stream流式方法
 
-## Lambda表达式的简单规则
+## ⭐Lambda表达式的简单规则
 
 ```java
  lambda表达式的要求:

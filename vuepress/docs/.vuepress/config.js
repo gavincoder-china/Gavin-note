@@ -46,6 +46,10 @@ module.exports = {
       children: getPath('java'),
     },
     {
+      title: 'JAVA8',
+      children: getPath('java8'),
+    },
+    {
       title: '藏宝阁',
       children: getPath('treasure'),
     },

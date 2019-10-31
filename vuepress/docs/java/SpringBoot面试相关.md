@@ -115,7 +115,7 @@ application-dev.Properties
 application-test.Properties  
 ```
 
-17 多环境的切换命令
+17 多环境的切换配置
 
 ```java
 spring.profiles.active=dev
@@ -173,7 +173,7 @@ hash    缓存对象
 25 你认为redis是什么？
 
 ```java
-Redis是一个高速的运行在内存上的kv非关系型缓存数据库
+Redis是一个用c语言编写运行在内存上的高速的kv非关系型缓存数据库
 ```
 
 26 正常情况下idea全局搜索快捷键，当前页搜索快捷键，debug下一步快捷键，debug状态下放开断点快捷键 分别是什么？
@@ -189,10 +189,10 @@ debug下一步    F8
 
 ```java
 起始页:          startPage   
-limit的起始条数: start= (startPage-1)*pageSize
+limit的起始下标: start= (startPage-1)*pageSize
 每页条数:        pageSize
-总条数:          totalRecord
-总页数:          totalPage= (totalRecord + pageSize-1) / pageSize;
+总条数:          totalSize
+总页数:          totalPage= (totalSize + pageSize-1) / pageSize;
 ```
 
 28 zookeeper默认端口号？
